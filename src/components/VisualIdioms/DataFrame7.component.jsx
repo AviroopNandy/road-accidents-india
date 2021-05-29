@@ -21,6 +21,7 @@ import img14 from "../../assets/images/df7/img14.PNG";
 import img15 from "../../assets/images/df7/img15.PNG";
 import img16 from "../../assets/images/df7/img16.PNG";
 import img17 from "../../assets/images/df7/img17.PNG";
+import img18 from "../../assets/images/df7/img18.png";
 
 import "./DataFrame.style.css";
 
@@ -145,6 +146,13 @@ const DataFrame6 = () => {
                     <Col className="pt-3 pb-3 d-flex flex-column align-items-center">
                         <Card className="pt-3 pb-3 image">
                             <Card.Img variant="top" src={ img17 } className="img" />
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="pt-3 pb-3 d-flex flex-column align-items-center">
+                        <Card className="pt-3 pb-3 image">
+                            <Card.Img variant="top" src={ img18 } className="img" />
                         </Card>
                     </Col>
                 </Row>

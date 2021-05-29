@@ -14,6 +14,7 @@ import img7 from "../../assets/images/df5/img7.PNG";
 import img8 from "../../assets/images/df5/img8.PNG";
 import img9 from "../../assets/images/df5/img9.PNG";
 import img10 from "../../assets/images/df5/img10.PNG";
+import img11 from "../../assets/images/df5/img11.png";
 
 import "./DataFrame.style.css";
 
@@ -89,6 +90,13 @@ const DataFrame5 = () => {
                     <Col className="pt-3 pb-3 d-flex flex-column align-items-center">
                         <Card className="pt-3 pb-3 image">
                             <Card.Img variant="top" src={ img10 } className="img" />
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="pt-3 pb-3 d-flex flex-column align-items-center">
+                        <Card className="pt-3 pb-3 image">
+                            <Card.Img variant="top" src={ img11 } className="img" />
                         </Card>
                     </Col>
                 </Row>
