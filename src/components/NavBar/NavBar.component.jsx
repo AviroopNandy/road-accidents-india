@@ -20,11 +20,11 @@ const NavBar = () => {
         <>
             <Navbar fixed="top" variant="primary" className="navbar-custom">
                 <Navbar.Brand href="#home" className="navbar-logo">
-                    Road Accidents in India
+                    🚗 Road Accidents in India 🚌
                 </Navbar.Brand>
                 <Nav className="ml-auto">
-                <Nav.Link href="#" className="nav-link-text" onClick={ () => redirectToHome() }>Home</Nav.Link>
-                <Nav.Link href="#" className="nav-link-text" onClick={ () => redirectToDevs() }>Devs</Nav.Link>
+                <Nav.Link href="#" className="nav-link-text" onClick={ () => redirectToHome() }>🏡 Home</Nav.Link>
+                <Nav.Link href="#" className="nav-link-text" onClick={ () => redirectToDevs() }>👨‍💻 Devs</Nav.Link>
                 </Nav>
             </Navbar>
         </>

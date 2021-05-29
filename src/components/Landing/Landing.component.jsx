@@ -20,7 +20,7 @@ const Landing = () => {
                         <Card>
                             <Card.Body>
                                 <Card.Title style={ {textAlign: "center"} }>Data Frame 1</Card.Title>
-                                <Card.Text>Data Frame 1: Analysing Accidents per Lakh Population-State-Year</Card.Text>
+                                <Card.Text>Data Frame 1: Analysing Accidents per Lakh Population per State per Year</Card.Text>
                                 <Link to="/dataframe-1">
                                     <div style= { {textAlign: "center"} }>
                                         <Button>Click to view</Button>
@@ -42,6 +42,8 @@ const Landing = () => {
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <Row className="pb-5 d-flex justity-content-center">
                     <Col className="d-flex flex-column">
                         <Card>
                             <Card.Body>
@@ -96,6 +98,8 @@ const Landing = () => {
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <Row className="pb-5 d-flex justity-content-center">
                     <Col className="d-flex flex-column">
                         <Card>
                             <Card.Body>
