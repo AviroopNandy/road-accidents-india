@@ -19,7 +19,7 @@ const NavBar = () => {
     return(
         <>
             <Navbar fixed="top" variant="primary" className="navbar-custom">
-                <Navbar.Brand href="#home" className="navbar-logo">
+                <Navbar.Brand href="/" className="navbar-logo">
                     🚗 Road Accidents in India 🚌
                 </Navbar.Brand>
                 <Nav className="ml-auto">

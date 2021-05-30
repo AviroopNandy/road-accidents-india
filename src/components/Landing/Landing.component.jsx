@@ -33,7 +33,7 @@ const Landing = () => {
                         <Card>
                             <Card.Body>
                                 <Card.Title style={ {textAlign: "center"} }>Data Frame 2</Card.Title>
-                                <Card.Text>Data Frame 2: Analysing Offender and Victim Deaths per Gender, State</Card.Text>
+                                <Card.Text>Data Frame 2: Analysing Offender and Victim Deaths based on Gender</Card.Text>
                                 <Link to="/dataframe-2">
                                     <div style= { {textAlign: "center"} }>
                                         <Button>Click to view</Button>
