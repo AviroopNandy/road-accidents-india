@@ -1,11 +1,11 @@
 .dataframe {
     padding: 4% 0;
-    background: url("../../assets/images/bg/landing.jpg");
+    /* background: url("../../assets/images/bg/landing.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 100vh; */
 }
 
 .image {
